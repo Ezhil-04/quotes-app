@@ -155,5 +155,8 @@ width: 100%;
         
         font-weight: bold;
     }
-
+    .btns:hover{
+    background-color: black;
+      color: aliceblue;
+    }
 }
