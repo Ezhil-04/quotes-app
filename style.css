@@ -18,7 +18,7 @@ body{
     font-style: normal;
   }
   
- 
+}
 
 .roboto-mono {
   font-family: "Roboto Mono", monospace;
@@ -37,7 +37,10 @@ body{
  
   
  .wrapper h2{
+    margin-top: 1rem;
     font-family: "Roboto Mono", monospace;
+    font-size: 2rem;
+  
 }
 .wrapper{
     background-color: chartreuse;
@@ -49,7 +52,7 @@ body{
     place-items: center;
    
     
-    grid-template-rows: 30% 35% 10% 25%;
+    grid-template-rows: 20% 45% 10% 25%;
 }
 .btns_wrap{
     display: flex;
@@ -159,4 +162,9 @@ width: 100%;
     background-color: black;
       color: aliceblue;
     }
+    .wrapper h2{
+        margin-top: 4rem;
+    }
+
+
 }
