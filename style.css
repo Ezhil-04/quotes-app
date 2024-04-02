@@ -1,0 +1,147 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-repeat: no-repeat;
+    background-image:linear-gradient(to right,skyblue,white);
+}
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+ 
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: ;
+}
+
+
+.edu-nsw {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ 
+  
+ .wrapper h2{
+    font-family: "Roboto Mono", monospace;
+}
+.wrapper{
+    background-color: chartreuse;
+    border-radius:10px ;
+    min-height: 20rem;
+   max-height: auto;
+    width: 30rem;
+    display: grid;
+    place-items: center;
+   
+    
+    grid-template-rows: 30% 35% 10% 25%;
+}
+.btns_wrap{
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 60%;
+}
+.btns{
+    background-color: aquamarine;
+  
+    height: 2rem;
+    border-radius: 15px;
+    width: 5rem;
+   
+}
+.h3{
+    background-color: rgb(255, 255, 255);
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+        font-size: small;
+        font-style: italic;
+    text-align: center;
+    overflow-y: auto;
+width: 100%;
+   max-height: 10rem;
+}
+.spandiv{
+    font-weight: 700;
+  background-color: rgb(255, 136, 0);
+  height: 1rem;
+  width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+#a{
+    text-decoration:none ;
+    color: aliceblue;
+}
+.btns {
+    padding: .5rem;
+    width: 8rem;
+    border: none;
+    font-size: 1rem;
+    background-color: black;
+    color: aliceblue;
+    transition: all .2s linear;
+}
+#span{
+    font-size: small;
+    font-weight: 600;
+    /* line-height: 1rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btns:hover{
+    background-color: deepskyblue;
+    color: black;
+}
+
+
+@media only screen and (max-width:470px) {
+    .wrapper{
+        width: 22rem;
+        height: 30rem;
+        background-color: rgb(244, 199, 248);
+    }
+    .btns_wrap{
+        width: 80%;
+        height: 4rem;
+    }
+    .btns{
+        letter-spacing: 2px;
+        font-size:1.2rem;
+        font-weight: bold;
+        border-radius: 15px;
+        height: 2.7rem;
+        width: 8rem;
+    }
+    .h3{
+        background-color: white;
+        font-family: "Edu NSW ACT Foundation", cursive;
+        padding: 1rem;
+        text-align: center;
+        overflow-y: auto;
+    
+       max-height: 10rem;
+    }
+    .h3{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+}
